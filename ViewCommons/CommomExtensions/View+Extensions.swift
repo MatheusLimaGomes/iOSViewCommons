@@ -18,9 +18,12 @@ extension  UIView {
         self.layer.shadowOpacity = opacity
         self.layer.shadowOffset = offset
         self.layer.shadowRadius = 10
-        self.layer.shadowPath = UIBezierPath(rect: someView.bounds).cgPath
+        self.layer.shadowPath = UIBezierPath(rect: self.bounds).cgPath
         self.layer.shouldRasterize = true
         self.layer.rasterizationScale = UIScreen.main.scale
     }
-    
+    func makeBorderOutline(to borderWidth: CGFloat = 10, with color: CGColor = UIColor.white.cgColor) {
+        self.layer.borderWidth = borderWidth
+        self.layer.borderColor = color
+    }
 }
