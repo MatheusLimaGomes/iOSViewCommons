@@ -1,5 +1,5 @@
 //
-//  View+Extensions.swift
+//  UIView+Extensions.swift
 //  ViewCommons
 //
 //  Created by Matheus Lima Altran on 01/07/20.
@@ -25,5 +25,8 @@ extension  UIView {
     func makeBorderOutline(to borderWidth: CGFloat = 10, with color: CGColor = UIColor.white.cgColor) {
         self.layer.borderWidth = borderWidth
         self.layer.borderColor = color
+    }
+    func makeRoundedView(_ radius: CGFloat = 10) {
+        self.layer.cornerRadius = radius
     }
 }
