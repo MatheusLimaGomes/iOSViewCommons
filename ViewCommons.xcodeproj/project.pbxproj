@@ -13,6 +13,7 @@
 		945EF97224ACDE4D001CDB6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 945EF97124ACDE4D001CDB6F /* Assets.xcassets */; };
 		945EF97524ACDE4D001CDB6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 945EF97324ACDE4D001CDB6F /* LaunchScreen.storyboard */; };
 		945EF98024ACDE4E001CDB6F /* ViewCommonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945EF97F24ACDE4E001CDB6F /* ViewCommonsTests.swift */; };
+		945EF98C24ACDE73001CDB6F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945EF98B24ACDE73001CDB6F /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		945EF97B24ACDE4E001CDB6F /* ViewCommonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewCommonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		945EF97F24ACDE4E001CDB6F /* ViewCommonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommonsTests.swift; sourceTree = "<group>"; };
 		945EF98124ACDE4E001CDB6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945EF98B24ACDE73001CDB6F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		945EF96924ACDE4C001CDB6F /* ViewCommons */ = {
 			isa = PBXGroup;
 			children = (
+				945EF98A24ACDE5D001CDB6F /* CommomExtensions */,
 				945EF96A24ACDE4C001CDB6F /* AppDelegate.swift */,
 				945EF96C24ACDE4C001CDB6F /* ViewController.swift */,
 				945EF96E24ACDE4C001CDB6F /* Main.storyboard */,
@@ -94,6 +97,14 @@
 				945EF98124ACDE4E001CDB6F /* Info.plist */,
 			);
 			path = ViewCommonsTests;
+			sourceTree = "<group>";
+		};
+		945EF98A24ACDE5D001CDB6F /* CommomExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				945EF98B24ACDE73001CDB6F /* View+Extensions.swift */,
+			);
+			path = CommomExtensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				945EF96D24ACDE4C001CDB6F /* ViewController.swift in Sources */,
+				945EF98C24ACDE73001CDB6F /* View+Extensions.swift in Sources */,
 				945EF96B24ACDE4C001CDB6F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
